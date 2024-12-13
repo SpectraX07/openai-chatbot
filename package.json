@@ -1,0 +1,36 @@
+{
+  "name": "openai-chatbot",
+  "version": "1.0.0",
+  "description": "This project implements a web-based chatbot powered by OpenAI's GPT model. It uses Node.js as the backend to handle communication with the OpenAI API, and a simple HTML/JavaScript frontend to provide an interactive user interface for chatting.",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SpectraX07/openai-chatbot.git"
+  },
+  "keywords": [
+    "ChatGpt",
+    "Openai",
+    "chatbot",
+    "bot"
+  ],
+  "author": "Subrata Jana",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SpectraX07/openai-chatbot/issues"
+  },
+  "homepage": "https://github.com/SpectraX07/openai-chatbot#readme",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "ejs": "^3.1.10",
+    "express": "^4.21.2",
+    "openai": "^4.76.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
